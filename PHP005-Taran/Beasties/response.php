@@ -9,8 +9,8 @@
 
 //echo "<img src='img/".$_POST['apen'].".jpg'>";
 
+echo 'Hallo';
 
-
-foreach($_POST['apen'] as $aap){
+foreach($_POST as $aap){
     echo "<img src='img/".$aap.".jpg'>";
 }
